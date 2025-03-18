@@ -1,0 +1,76 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    transition: all .5s;
+}
+.navbar .container-fluid .navbar-collapse .home{
+    color: rgba(255, 255, 255, 0.879);
+}
+.navbar .container-fluid .navbar-collapse .home{
+    color:#dc3545;
+}
+
+.navbar .container-fluid .navbar-collapse .home:hover{
+    color:yellow;
+}
+
+.navbar.navbar-expand-lg.navbar-dark .container-fluid .navbar-brand:hover{
+    text-shadow:
+        1px 1px 2px red,
+        0 0 .5em blue,
+        0 0 0.2em rgb(255, 255, 255);
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgba(0, 34, 255, 0.151);
+}
+
+.card:hover{
+    box-shadow: 10px 5px 5px rgb(226, 221, 221);
+}
+
+iframe{
+    height: 500px;
+    width: 500px;
+}
+
+iframe:hover{
+    box-shadow: 10px 5px 5px rgb(226, 221, 221);
+    border-radius: 50%;
+}
+
+.img-photo:hover{
+    box-shadow: 10px 5px 5px rgb(24, 23, 23);
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .frame-serv{
+        height: 300px;
+        width: 300px;
+
+    }    
+}
+
+.frame-serv{
+    padding-bottom: 20px;
+}  
+
+.zoc{
+    padding-bottom: 20px;
+}
+
+.copy-right:hover{
+    text-shadow:
+        1px 1px 2px red,
+        0 0 .5em blue,
+        0 0 0.2em rgb(255, 255, 255);
+}
