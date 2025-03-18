@@ -3,6 +3,7 @@ html{
 }
 .navbar{
     position :fixed;
+}
 *{
     transition: all .5s;
 }
