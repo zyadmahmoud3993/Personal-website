@@ -55,8 +55,8 @@ iframe:hover{
 
 @media only screen and (max-width: 900px) {
     .frame-serv{
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
 
     }    
 }
